@@ -1,13 +1,36 @@
 html{
-    background-color: rgb(169, 99, 169);
+    background-color: #975CD1;
+    color: white;
 }
+h1{
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
     #Label{
+
       display: block;
+      color: white;
     }
     textarea{
       display: block;
-      border: white 1px solid;
+      color: white;
+      background-color: rgba(14, 13, 14, 0.387);
+      /* border: white 1px solid; */
       margin-top: 10px;
       margin-left: 30px;
       
     }
+img{
+    height: 100px;
+    margin-left: 470px;
+    margin-bottom: 00px;}

@@ -9,10 +9,10 @@ catButton.addEventListener('click', function(){
 
   const newCat = document.createElement("li") ;
   // TODO: assign the list item's text to be 'Cat' or the name of a cat you know.
-newCat.textContent = "cats";
-  const cats = document.getElementById('cats');   
+newCat.textContent = "cat";
+  const cat = document.getElementById('cat');   
 
-  cats.appendChild(newCat);
+  cat.appendChild(newCat);
 });
 
 const dogButton = document.getElementById('make-dog');
@@ -52,3 +52,4 @@ newHorse.textContent = 'Horse';
 const horses = document.getElementById('horses')
 horses.appendChild(newHorse)
 }
+
